@@ -1,0 +1,74 @@
+
+/* Init */
+
+html,
+body {
+	max-width: 100%;
+	font-family: Arial, sans-serif;
+	color: #1a1a1a;
+	outline: none;
+}
+
+html {
+	overflow-y: scroll;
+	-ms-overflow-y: scroll;
+}
+
+header,
+nav,
+main,
+section,
+article,
+blockquote,
+footer {
+	display: block;
+}
+
+::selection {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+::-moz-selection {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+a:hover {
+	outline: none;
+	text-decoration: none;
+	color: #1a1a1a;
+}
+
+a:focus {
+	text-decoration: underline;
+	color: #1a1a1a;
+	outline: none;
+}
+
+.hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.container {
+	overflow: hidden;
+}

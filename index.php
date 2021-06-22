@@ -26,7 +26,7 @@
 							?>
 							<section id="section-decorative" aria-label="section-decorative" class="col-xl-6 col-lg-6 col-md-6 col-sm-12 articles-article articles-article-logomark">
 								<h4 class="hidden">(Decorative: Logomark Ostentationem)</h4>
-								<img src="<?php echo get_template_directory_uri() . '/assets/icons/logomark-' . rand(1, 4) . '.svg' ?>" width="422" height="442" alt="logomark ostentationem">
+								<img src="<?php echo get_template_directory_uri() . '/assets/icons/logomark-' . rand(1, 6) . '.svg' ?>" width="422" height="442" alt="logomark ostentationem">
 							</section>
 							<?php
 						}
